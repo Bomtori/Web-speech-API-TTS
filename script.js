@@ -7,7 +7,7 @@ const pitchInput = document.querySelector("#pitch-input"); // 피치 입력 필�
 const pitchOutput = document.querySelector("#pitch-output"); // 피치 출력 필드 선택
 const speedInput = document.querySelector("#speed-input"); // 말속도 입력 필드 선택
 const speedOutput = document.querySelector("#speed-output"); // 말속도 출력 필드 선택
-const utterThis = new SpeechSynthesisUtterance(); //피치 속성 설정x 기본값 1
+const utterThis = new SpeechSynthesisUtterance();
 let ourText = "";
 
 //Web Speech API를 가져오는지 확인
