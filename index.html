@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>JavaScript Text-to-Speech App</h1>
+      <form id="form">
+        <input type="text" id="text-input" placeholder="Enter Text" />
+        <button type="submit" id="submit-button">Submit</button>
+      </form>
+      <h2>pitch</h2>
+      <input type="range" id="pitch-input" min="0" max="2" step="0.1" />
+      <div id="pitch-output"></div>
+      <h2>rate</h2>
+      <input
+        type="range"
+        id="speed-input"
+        min="0"
+        max="10"
+        step="0.1"
+        value="1"
+      />
+      <div id="speed-output"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
