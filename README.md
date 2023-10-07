@@ -1,5 +1,5 @@
 # Web-speech-API-TTS.js
-ITS 2023년도 2학기 TTS js 프로젝트
+4학년 2학기 TTS js 프로젝트
 
 ## 개요
 
